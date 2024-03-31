@@ -1,8 +1,13 @@
+import { Footer, Header, Home, Service, Transaction } from "./components";
 const App = () => {
   return (
-    <>
-      <h1>BLOCKCHAIN APP WEB 3.0</h1>
-    </>
+    <div className="main-container">
+      <Header />
+      <Home />
+      <Transaction />
+      <Service />
+      <Footer />
+    </div>
   );
 };
 
