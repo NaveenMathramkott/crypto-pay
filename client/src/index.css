@@ -4,12 +4,12 @@
 
 :root {
   --button-primary: #351a8d;
+  --button-secondary: #3f5191;
 }
 
 @layer utilities {
   .main-container {
     background: #161831;
-    padding: 0 200px;
   }
   .watermark {
     background: #161831;
@@ -21,5 +21,24 @@
     background-color: rgba(251, 251, 251, 0.26);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+  .formOne {
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+  .skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+  }
+
+  @keyframes skeleton-loading {
+    0% {
+      background-color: hsl(200, 20%, 80%);
+    }
+    100% {
+      background-color: hsl(200, 20%, 95%);
+    }
   }
 }

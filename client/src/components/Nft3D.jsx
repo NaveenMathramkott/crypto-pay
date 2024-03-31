@@ -1,6 +1,6 @@
 const Nft3D = () => {
   return (
-    <div className="relative overflow-hidden h-[500px] w-[320px] ">
+    <div className="relative overflow-hidden h-[500px] w-[320px] lg:flex hidden">
       <iframe
         title="background-3d"
         src="https://my.spline.design/untitled-d130f9d06023c768751d9359345bd3a9/"
