@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --button-primary: #351a8d;
+}
+
+@layer utilities {
+  .main-container {
+    background: #161831;
+    padding: 0 200px;
+  }
+  .watermark {
+    background: #161831;
+  }
+
+  .glassOne {
+    backdrop-filter: blur(18px) saturate(200%);
+    -webkit-backdrop-filter: blur(18px) saturate(200%);
+    background-color: rgba(251, 251, 251, 0.26);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+}
