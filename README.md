@@ -2,6 +2,12 @@
 
 Decentralized app for the transaction of crypto currency around the world using Solidity, smart contract.
 
+## Tech Stack
+
+**Client:** React JS, Tailwindcss, spline
+
+**Server:** Solidity, Samrt Contracts
+
 ## Features 
 
 Crypto transaction, Transaction status view, Metamask wallet auth.
